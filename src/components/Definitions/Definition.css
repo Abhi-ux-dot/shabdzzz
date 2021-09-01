@@ -1,0 +1,24 @@
+.meanings{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    height: 55vh;
+    border: 10px solid #001f3f;
+    border-radius: 20px;
+    overflow-x: hidden;
+
+}
+
+.subTitle{
+    font-size: 5vw;
+    font-family: 'Cinzel', serif;
+}
+
+@media (max-width: 900px) {
+    .meanings{
+        height: 60vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}
